@@ -1,0 +1,8 @@
+In Python, a tuple is an ordered, immutable collection of elements. Tuples are similar to lists, but unlike lists, tuples cannot be changed (i.e., you can’t add, remove, or modify elements once created). This immutability makes tuples more memory-efficient and useful for storing constant data.
+
+Creating Tuples
+Tuples are defined using parentheses ():
+
+numbers = (1, 2, 3, 4)
+colors = ("red", "green", "blue")
+mixed = (1, "apple", 3.14)
