@@ -1,0 +1,9 @@
+In Python, a set is an unordered, unindexed, and mutable collection of unique elements. Sets are useful for storing items where duplicates are not allowed and for performing mathematical set operations like union, intersection, and difference.
+
+Creating a Set
+Sets are created using curly braces {} or the set() constructor:
+
+fruits = {"apple", "banana", "cherry"}
+numbers = set([1, 2, 3, 4])
+
+Note: An empty set must be created with set() not {}, as {} creates an empty dictionary.
