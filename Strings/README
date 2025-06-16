@@ -1,0 +1,9 @@
+In Python, a string is a sequence of characters enclosed within single ('), double ("), or triple quotes (''' or """). Strings are used to store text data such as names, sentences, or any combination of letters, numbers, and symbols.
+
+Creating Strings:
+
+name = 'Alice'
+message = "Hello, World!"
+paragraph = '''This is
+a multi-line
+string.'''
