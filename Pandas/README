@@ -1,0 +1,62 @@
+
+
+**Pandas** is a powerful Python library used for **data analysis**, **manipulation**, and **cleaning**. It provides two main data structures: **Series** (1D) and **DataFrame** (2D), which are built on top of NumPy.
+
+
+### ✅ Installing Pandas
+
+
+pip install pandas
+
+
+### ✅ Importing Pandas
+
+
+import pandas as pd
+
+### 📌 1. **Series**
+
+A one-dimensional labeled array.
+
+s = pd.Series([10, 20, 30], index=['a', 'b', 'c'])
+print(s['b'])  # Output: 20
+
+### 📌 2. **DataFrame**
+
+A two-dimensional labeled data structure (like an Excel table).
+
+data = {
+    "Name": ["Alice", "Bob", "Charlie"],
+    "Age": [25, 30, 35]
+}
+df = pd.DataFrame(data)
+print(df)
+
+### 📊 3. **Reading and Writing Data**
+
+
+df = pd.read_csv("data.csv")        # Read CSV file
+df.to_excel("output.xlsx")          # Write to Excel
+
+### 🧮 4. **Common DataFrame Operations**
+
+df.head()            # First 5 rows
+df.tail()            # Last 5 rows
+df.shape             # Rows and columns
+df.columns           # Column names
+df.describe()        # Summary statistics
+df["Age"].mean()     # Average age
+
+### 🧹 5. **Data Cleaning**
+
+df.dropna()          # Remove missing rows
+df.fillna(0)         # Fill missing values
+df.rename(columns={"Age": "Years"})  # Rename column
+
+### 🔍 6. **Filtering and Sorting**
+
+
+df[df["Age"] > 25]         # Filter rows
+df.sort_values("Age")      # Sort by age
+
+Pandas is essential for **data analysis**, **machine learning**, and **data science projects**. It helps transform raw data into a structured, analyzable format with minimal effort.
