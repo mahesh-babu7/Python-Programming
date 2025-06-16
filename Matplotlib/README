@@ -1,0 +1,21 @@
+Matplotlib is a popular Python library used for data visualization. It allows you to create static, animated, and interactive plots easily. The most commonly used module in Matplotlib is pyplot, which provides functions similar to MATLAB for plotting.
+
+Installing Matplotlib
+To install Matplotlib, use:
+
+    - pip install matplotlib
+
+Importing Pyplot
+
+     - import matplotlib.pyplot as plt
+
+
+Basic Line Plot
+
+x = [1, 2, 3, 4]
+y = [2, 4, 6, 8]
+plt.plot(x, y)
+plt.title("Line Graph")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.show()
