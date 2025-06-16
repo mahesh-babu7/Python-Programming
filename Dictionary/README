@@ -1,0 +1,10 @@
+In Python, a dictionary is an unordered, mutable collection of key-value pairs. Each key in a dictionary is unique, and it maps to a specific value. Dictionaries are used to store data in a structured way for fast lookup and flexible data handling.
+
+Creating a Dictionary
+Dictionaries are defined using curly braces {}:
+
+person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
